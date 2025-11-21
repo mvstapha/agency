@@ -362,13 +362,16 @@ footer{
 
 
 /*--------- REPONSIVE DESIGN ---------*/
-@media (min-width: 768px) {
+@media (min-width: 769px) {
     .cards{
         display: flex;
         flex-direction: row !important;
         align-items: center;
         gap: 20px;
         justify-content: space-between;
+    }
+    .card{
+        width: 20%;
     }
     }
 
@@ -413,7 +416,7 @@ footer{
         font-size: 13px;
     }
     .table-section{
-        width: 100%;
+        display: none;
 
     }
     header{
